@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+<p style="font-size: 25px; color: red">姚毅征婚表<em>（女嘉宾版）</em></p>
+<p style="font-size: 20px; color: blue">男主人公介绍<em>（请以实物为准）</em></p>
+<p style="font-size: 15px; color: blue"> 姚毅的优点：</p>
+<ul>
+			<li>搞笑</li>
+			<li>社牛</li>
+		</ul>
+<p style="font-size: 15px; color: blue">姚毅的缺点：</p>
+<ul>
+			<li>喜欢在马路上唱歌</li>
+			<li>养了一只母猫</li>
+		</ul>
+<p style="font-size: 15px; color: blue">我已认真阅读并坚持要继续填写此表单 <input type="radio" /></p>
+
+	</head>
+
+	<body>
+		
+<p><em>接下来是您需要填写的内容：</em></p>
+
+		<form action="index.html" method="get">
+			<p>姓名：<input type="text" /></p>
+          <p>性别：<input type="radio" name="gender" checked />男 <input type="radio" name="gender" />女</p>
+<p>年龄：<input type="number" value="20" min="18" max="30" step="1" /></p>
+<p>身高：<input type="number" />cm</p>
+<p>对姚毅的好感度：<input type="range" min="0" max="100" step="5" /></p>
+
+			<p>微信号码：<input type="text" pattern="^1[3578]\d{9}$" /></p>
+			<p>毕业院校： <input type="text" /></p>
+<p>
+				住址：<select name="address" id="address">
+					<option value="sz">深圳</option>
+					<option value="gz">广州</option>
+					<option value="sh">上海</option>
+				</select>
+			</p>
+
+			<p>名下房产数量：<input type="number" /></p>
+			<p>性需求：<input type="number" /></p>
+<p>是否养猫：<input type="radio" name="cat" />是 <input type="radio" name="cat" />否</p>
+<p>会不会唱rap：<input type="radio" name="rap" />会 <input type="radio" name="rap" />不会</p>
+<p>喜欢打游戏吗：<input type="radio" name="game" />喜欢 <input type="radio" name="game" />无感</p>
+			<p>深入了解：</p>
+<textarea name="abc" id="abc" cols="20" rows="10">描述一下过往感情经历以及推荐自己。</textarea>
+
+			<p><input type="submit" value="提交" />
+<input type="button" value="对姚毅不感兴趣，拒绝填写" onclick="alert('拒绝无效，姚毅强吻了你一口。')" />
+
+		</form>
+	</body>
+</html>
